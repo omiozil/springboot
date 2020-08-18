@@ -5,10 +5,10 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.tml.esb</groupId>
-	<artifactId>sms</artifactId>
-	<version>${version}</version>
-	<description>SMS </description>
+	<groupId>org.test.esb</groupId>
+	<artifactId>test</artifactId>
+	<version>test</version>
+	<description>test</description>
 
 	<properties>
 		<swagger.version>3.24.3</swagger.version>
@@ -24,13 +24,6 @@
 		<maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
 		<maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
 	</properties>
-	
-	<distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<url>https://nexus-cicd.api.tatamotors.com/repository/maven-releases/</url>
-		</repository>
-	</distributionManagement>
 
 	<dependencyManagement>
 		<dependencies>
